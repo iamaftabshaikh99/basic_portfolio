@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aliraza's Profile</title>
+    <style>
+        /* General body styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        /* Container styling */
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 30px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        /* Title styling */
+        h1 {
+            font-size: 36px;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        /* Subtitle styling */
+        h2 {
+            font-size: 24px;
+            color: #2980b9;
+            font-weight: normal;
+            margin-bottom: 40px;
+        }
+
+        /* Detail section */
+        .details {
+            font-size: 20px;
+            color: #34495e;
+            background-color: #ecf0f1;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Styling for each paragraph */
+        .details p {
+            margin: 15px 0;
+            padding: 10px;
+            font-weight: bold;
+            background-color: #fff;
+            border-left: 5px solid #2980b9;
+        }
+
+        /* Button for interaction (optional) */
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #2980b9;
+            color: #fff;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #3498db;
+        }
+
+        /* Add a footer for the page */
+        footer {
+            margin-top: 40px;
+            font-size: 16px;
+            color: #7f8c8d;
+        }
+
+        footer a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <script>
+        // JavaScript function to show a thank you message on button click
+        function thankYou() {
+            alert("Thank you for reaching out! I will get back to you soon.");
+        }
+    </script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Aliraza's Profile</h1>
+        <h2>DevOps Architect</h2>
+
+        <div class="details">
+            <p><strong>Name:</strong> Aliraza Devops Architect</p>
+            <p><strong>Roll No:</strong> 37</p>
+        </div>
+
+        <!-- Button with onclick event to trigger thank you prompt -->
+        <a href="#" class="btn" onclick="thankYou()">Contact Me</a>
+    </div>
+
+    <footer>
+        <p>Created with <span style="color: red;">&hearts;</span> by Aliraza. For more information, visit <a href="#">aliraza.com</a>.</p>
+    </footer>
+
+</body>
+</html>
